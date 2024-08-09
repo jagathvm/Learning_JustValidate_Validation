@@ -1,7 +1,3 @@
-Here's the updated README for your project:
-
----
-
 # JustValidate Form Validation Project
 
 This project demonstrates how to integrate the **JustValidate** plugin for validating front-end forms. The form includes email and password fields with custom validation rules and messages. The project uses Express.js to serve the HTML page, EJS as the template engine, and JustValidate for client-side form validation.
