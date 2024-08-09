@@ -1,0 +1,28 @@
+{
+  "name": "justvalidate-project",
+  "version": "1.0.0",
+  "description": "Learning how to use justValidate for validating front end forms",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagathvm/Learning_JustValidate_Validation.git"
+  },
+  "author": "JagathVM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagathvm/Learning_JustValidate_Validation/issues"
+  },
+  "homepage": "https://github.com/jagathvm/Learning_JustValidate_Validation#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
