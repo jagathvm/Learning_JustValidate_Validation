@@ -1,24 +1,30 @@
 /* Error state */
+
+/* Styles applied to fields with errors */
 .error-field {
   color: red !important;
   font-weight: 500;
-  border: 1px solid red !important;
-  border-radius: 5px;
+  border: 1px solid red !important; /* Red border for error indication */
+  border-radius: 5px; /* Rounded corners for error fields */
 }
 
+/* Styles applied to error messages */
 .error-label {
   color: red !important;
   font-weight: 500;
 }
 
+/* Adds a warning symbol before error messages */
 .error-label::before {
   content: '❗' !important;
 }
 
 /* Success state */
+
+/* Styles applied to valid fields */
 .success-field {
   color: green !important;
   font-weight: 500;
-  border: 1px solid green !important;
-  border-radius: 5px;
+  border: 1px solid green !important; /* Green border for success indication */
+  border-radius: 5px; /* Rounded corners for success fields */
 }
